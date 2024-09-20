@@ -6,9 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
   <meta name="description" content="" />
   <meta name="author" content="" />
-  
+
   <title>{{ isset($title) ? config('app.name') . ' - ' . $title : config('app.name') }}</title>
-  
+
   {{-- Favicon --}}
   <link rel="icon" type="image/x-icon" href="{{ secure_asset('blog/assets/favicon.ico') }}" />
   <link rel="icon" type="image/x-icon" href="{{ asset('blog/assets/favicon.ico') }}" />
@@ -34,14 +34,14 @@
     @include('blog.layout.slide')
   @endif
 
-  
-    
+
+
   {{-- Page content --}}
   <div class="max-w-full mx-auto">
     <div class="flex flex-col lg:flex-row">
       <!-- Blog entries-->
       @yield('content')
-      
+
       {{-- make sure aside only exsist in '/' --}}
       @if ($title != 'Login')
         {{-- Side widgets --}}
@@ -54,7 +54,7 @@
   {{-- Footer --}}
   <footer class="py-5 bg-gray-700 flex flex-col">
     <div class="flex flex-row justify-center justify-items-center mt-6 mb-4">
-      <img class="h-12" src="{{ asset('blog') }}/assets/logo-surabaya.png" alt="">
+      <img class="h-12" src="{{ asset('blog') }}/assets/logo-kt.png" alt="">
       <a class="my-auto mx-5 text-lg text-white font-medium">Kelurahan Ampel</a>
     </div>
 
@@ -87,7 +87,7 @@
     </div>
     <p class="mt-16 mb-3 mx-10 py-5 border-t border-white text-center text-white">&copy; Kelurahan Ampel 2023</p>
   </footer>
-  
+
   {{-- Tailwind Flowbite core JS --}}
   <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.js"></script>
   <!-- Core theme JS-->

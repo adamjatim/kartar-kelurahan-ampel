@@ -1,7 +1,7 @@
 <nav class="bg-blue-50 border-gray-200 dark:bg-gray-900 sticky top-0 z-20">
   <div class="max-w-screen flex flex-wrap items-center justify-between lg:px-10 px-7 py-4">
     <a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
-      <img src="{{ asset('blog')}}/assets/logo-surabaya.png" class="h-10" alt="Kelurahan Ampel Logo" />
+      <img src="{{ asset('blog')}}/assets/logo-kt.png" class="h-10" alt="Kelurahan Ampel Logo" />
       <span class="font-sans self-center font-semibold text-sm antialiased whitespace-nowrap dark:text-white">KELURAHAN AMPEL</span>
     </a>
 
@@ -40,7 +40,7 @@
         </li>
         @auth
           <li>
-            <a 
+            <a
               class="block py-2 px-3 text-gray-900 lg:text-gray-100 rounded hover:bg-sky-200 lg:hover:bg-transparent lg:border-0 lg:hover:text-cyan-300 lg:p-0 dark:text-white lg:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent text-sm">
               <button class="!w-full md:w-fit flex items-center justify-between text-gray-900 rounded hover:bg-sky-200 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto dark:text-white md:dark:hover:text-blue-500 dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent" id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar">
                 {{ explode(" ", auth()->user()->name )[0] }}
@@ -49,7 +49,7 @@
                 </svg>
               </button>
             </a>
-            
+
             <!-- Dropdown menu -->
             <div id="dropdownNavbar" class="hidden lg:!absolute lg:w-fit lg:!right-10 lg:!left-auto lg:!top-[77px] !transform-none w-full !relative font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
               <ul class="py-2 text-sm text-gray-700 dark:text-gray-400" aria-labelledby="dropdownLargeButton">
@@ -61,7 +61,7 @@
                 <form action="logout" method="POST">
                   @csrf
                   <button class="w-full block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white text-start lg:text-center" type="submit">Logout</button>
-                </form> 
+                </form>
               </div>
             </div>
 

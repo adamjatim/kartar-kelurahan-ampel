@@ -4,7 +4,7 @@
 <section class="bg-gray-50 dark:bg-gray-900 w-full">
   <div class="flex flex-col items-center justify-center px-6 py-8 mx-auto h-screen lg:py-0 slideanim">
     <a href="" class="flex items-center mb-6 text-2xl font-semibold text-gray-900 dark:text-white">
-      <img class="h-8 mr-2" src="{{ asset('blog') }}/assets/logo-surabaya.png" alt="logo">
+      <img class="h-8 mr-2" src="{{ asset('blog') }}/assets/logo-kt.png" alt="logo">
       {{ config('app.name') }}
     </a>
 

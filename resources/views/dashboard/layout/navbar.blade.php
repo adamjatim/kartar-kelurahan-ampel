@@ -15,7 +15,7 @@
         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
       </svg>
     </div>
-    
+
     {{-- <button x-show="isOpen" @click="isOpen = false" class="h-full w-full fixed inset-0 cursor-default"></button> --}}
     <div x-show="isOpen" class="absolute w-32 bg-white rounded-lg shadow-lg py-2 mt-16 text-gray-800">
       <a href="/" class="block px-4 py-2 account-link hover:bg-gray-300">Beranda</a>
@@ -31,7 +31,7 @@
 <header x-data="{ isOpen: false }" class="w-full bg-sidebar py-5 px-6 sm:hidden bg-gray-800">
   <div class="flex items-center justify-between">
     <a href="/dashboard" class="text-white text-xl font-semibold uppercase hover:text-gray-300 flex flex-row gap-2">
-      <img src="{{ asset('blog')}}/assets/logo-surabaya.png" class="h-10" alt="Kelurahan Ampel Logo" />
+      <img src="{{ asset('blog')}}/assets/logo-kt.png" class="h-10" alt="Kelurahan Ampel Logo" />
       <span class="my-auto">KELURAHAN AMPEL</span>
     </a>
     <button @click="isOpen = !isOpen" class="text-white text-3xl focus:outline-none">
