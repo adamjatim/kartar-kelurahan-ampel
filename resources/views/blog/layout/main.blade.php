@@ -55,7 +55,10 @@
   <footer class="py-5 bg-gray-700 flex flex-col">
     <div class="flex flex-row justify-center justify-items-center mt-6 mb-4">
       <img class="h-12" src="{{ asset('blog') }}/assets/logo-kt.png" alt="">
-      <a class="my-auto mx-5 text-lg text-white font-medium">Kelurahan Ampel</a>
+      <a class="my-auto mx-5 text-lg text-white font-medium">
+        <span>Karang Taruna</span>
+        <span>Kelurahan Ampel</span>
+      </a>
     </div>
 
     <div class="flex xl:flex-row lg:flex-row md:flex-row flex-col xl:my-auto lg:my-auto md:my-auto justify-evenly">
@@ -65,7 +68,7 @@
           <path d="M24 48C10.767 48 0 37.233 0 24S10.767 0 24 0s24 10.767 24 24-10.767 24-24 24zm0-46C11.869 2 2 11.869 2 24s9.869 22 22 22 22-9.869 22-22S36.131 2 24 2z"></path></g>
         </svg>
         <p class="text-white text-center">Dikelola oleh<br>
-          Bidang Informasi dan Komunikasi Publik serta Statistik Dinas Komunikasi dan Informatika Kelurahan Ampel</p>
+          Bidang Informasi Komunikasi dan Informatika Karang Taruna Kelurahan Ampel</p>
       </div>
 
       <div class="max-w-72 m-auto">
@@ -85,7 +88,7 @@
         <p class="text-white text-center">Jl. Pegirian, Sidotopo, Kec. Semampir, Surabaya, Jawa Timur 60152</p>
       </div>
     </div>
-    <p class="mt-16 mb-3 mx-10 py-5 border-t border-white text-center text-white">&copy; Kelurahan Ampel 2023</p>
+    <p class="mt-16 mb-3 mx-10 py-5 border-t border-white text-center text-white">&copy; Karang Taruna Kelurahan Ampel 2024</p>
   </footer>
 
   {{-- Tailwind Flowbite core JS --}}
