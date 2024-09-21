@@ -1,0 +1,19 @@
+{
+  "artificialDelayMilliseconds": 1000,
+  "keepExistingTerminalsOpen": false,
+  "runOnStartup": true,
+  "terminals": [
+    {
+      "splitTerminals": [
+        {
+          "name": "server",
+          "commands": ["","sudo php artisan serve --port=3002", "3542615"]
+        },
+        {
+          "name": "main",
+          "commands": [""]
+        }
+      ]
+    }
+  ]
+}
