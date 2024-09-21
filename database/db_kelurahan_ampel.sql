@@ -1,4 +1,4 @@
-CREATE DATABASE IF NOT EXISTS `db_kelurahan_ampel`;
+CREATE DATABASE IF NOT EXISTS `db_kartar_kelurahan_ampel`;
 USE db_kelurahan_ampel;
 
 CREATE TABLE `migrations` (
@@ -21,5 +21,5 @@ CREATE TABLE `users` (
   UNIQUE KEY `users_email_unique` (`email`)
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
-INSERT INTO db_kelurahan_ampel.users (name,email,email_verified_at,password,remember_token,created_at,updated_at) VALUES
+INSERT INTO db_kartar_kelurahan_ampel.users (name,email,email_verified_at,password,remember_token,created_at,updated_at) VALUES
 	('Adam Ampel','adam@ampel.com',NULL,'$2y$12$kQ.HW3N2Ak.PkKt.CbdIDeTQYsTTkgeqynDGTYVzOIj9K6mXWAq2K',NULL,NULL,NULL);
